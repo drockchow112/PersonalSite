@@ -1,0 +1,43 @@
+.image {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+.firstCont {
+    margin-bottom: 400px;
+}
+
+.font {
+    font-family: 'Helvetica';
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.secondFont {
+    font-family: 'Helvetica';
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.imageCropper {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: 90px;
+
+}
+
+.profilePic {
+    display: inline;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
