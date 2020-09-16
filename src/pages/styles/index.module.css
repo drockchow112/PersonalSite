@@ -4,12 +4,19 @@
     margin: 20px;
 }
 
+
+
 .navbar {
     display: flex;
     justify-content: flex-end;
 }
 .firstCont {
     margin-bottom: 400px;
+}
+
+.secondCont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .font {
@@ -25,6 +32,11 @@
     margin-top: 100px;
 }
 
+.pFont {
+    font-family: 'Helvetica';
+    font-size: 30px;
+}
+
 .imageCropper {
     width: 400px;
     height: 400px;
@@ -32,6 +44,8 @@
     overflow: hidden;
     border-radius: 50%;
     margin-left: 90px;
+    margin-bottom: 100px;
+
 
 }
 
